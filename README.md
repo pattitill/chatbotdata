@@ -4,8 +4,7 @@
 
     uv sync --all-groups
 
-    uv pip install --no-deps git+https://github.com/BMLN/botter
-    uv pip install --no-deps git+https://github.com/BMLN/chatterbotter
+    uv pip install --no-deps git+https://github.com/BMLN/chatterbot
 
 
 for some of the features of those packages since uv doesnt support --no-deps yet
@@ -20,7 +19,7 @@ for some of the features of those packages since uv doesnt support --no-deps yet
 - generating data from tickets
 - encoding into kb-data format
 - loading kb-data into kb
-
+- extracting the data from pdfs
 
 
 #### TODOS:
